@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Recipe Search App</title>
+</head>
+<body>
+    <header>
+        <h2>Food Villa</h2>
+        <div class="nav-left">
+            <div class="home">Home</div>
+            <div class="contact">Contact</div>
+            <div onclick="window.open('Signup.html')">Sign-in/Sign-up</div>
+
+            <div class="help">Help</div>
+            <div class="cart">Cart</div>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter ingredients">
+            <button onclick="searchRecipes()">Search</button>
+        </div>
+
+    </header>
+
+    <main id="menu" class="menu-container"></main>
+
+    <main id="recipeResults" class="recipe-container"></main>
+
+    <div id="notification"></div>
+
+    <!-- HTML for Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>About Us</h4>
+            <p>Your food delivery app description and mission.</p>
+        </div>
+
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Order Online</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Contact Information</h4>
+            <p>Email: info@fooddeliveryapp.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </div>
+
+        <div class="footer-section footer-social">
+            <h4>Connect with Us</h4>
+            <a href="#" target="_blank">Facebook</a>
+            <br>
+            <a href="#" target="_blank">Twitter</a>
+            <br>
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+    </div>
+</footer>
+
+    
+</body>
+    <script src="script.js"></script>
+</html>
